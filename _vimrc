@@ -30,13 +30,13 @@ Plugin 'VundleVim/Vundle.vim'
 "Plugin 'ascenator/L9', {'name': 'newL9'}
 
 Plugin 'TagList.vim'
-Plugin 'cjj/cjj-statusline.git'
+Plugin 'caijinju/cjj-statusline.git'
 "Plugin 'file://D:/cjj/my-things/my-repository/vim/ny.git'
-Plugin 'cjj/ny8.git'
-Plugin 'cjj/ny5.git'
-Plugin 'cjj/ny4.git'
-Plugin 'cjj/vimqc7.git'
-Plugin 'cjj/ny7.git'
+Plugin 'caijinju/ny8.git'
+Plugin 'caijinju/ny5.git'
+Plugin 'caijinju/ny4.git'
+Plugin 'caijinju/vimqc7.git'
+Plugin 'caijinju/ny7.git'
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
@@ -73,7 +73,7 @@ endfunc
 
 " ctags 设置
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-set rtp+='D:/cjj/software/ctags58'
+"set rtp+='D:/cjj/software/ctags58'
 "let Tlist_Ctags_Cmd='D:\cjj\software\ctags58\ctags.exe'
 let Tlist_Show_One_File=1               "不同时显示多个文件的tag，只显示当前文件的
 let Tlist_WinWidt =30                    "设置taglist的宽度
